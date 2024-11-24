@@ -1,0 +1,11 @@
+weight: 2
+title: "Recent Activities"
+description: >
+  <ul class="list-style-none">
+     <li>xxxxxxxxxxxx</li>
+     <li>xxxxxxxxxxxx</li>
+     <li>xxxxxxxxxxxx</li>
+     <li>xxxxxxxxxxxx</li>
+   </ul>
+image: "img/carousel/template-mac.png"
+href: "faq"

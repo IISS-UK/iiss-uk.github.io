@@ -1,0 +1,19 @@
+{{ if and (isset .Site.Params "title_description") .Site.Params.title_description.enable }}
+<section class="title-description-section" style="height: 50vh; display: flex; align-items: center; justify-content: center; background-color: #f9f9f9; padding: 20px 0;">
+    <div class="container" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+        <div class="col-md-6" >
+            <h2>
+                {{ .Site.Params.title_description.title | default "Default Title" }}
+            </h2>
+            <p>
+                {{ .Site.Params.title_description.description | markdownify | default "Default Description" }}
+            </p>
+        </div>
+        <div class="col-md-6" >
+            {{ if .Site.Params.title_description.image }}
+            <img class="img-fluid" src="{{ .Site.Params.title_description.image | absURL }}" alt="{{ .Site.Params.title_description.title | default "Default Title" }}" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
