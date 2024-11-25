@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
+  <body>
+    <div id="all">
+      {{ partial "top.html" . }}
+      {{ partial "nav.html" . }}
+      <div id="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>{{ .Title }}</h1>
+              {{ range .Pages }}
+              <div class="publication-item mb-4">
+                <h4>
+                  <span class="badge badge-secondary">[{{ .Params.year }}]</span>
+                  <a href="{{ with .Params.links.preprint }}{{ . }}{{ else }}#{{ end }}" target="_blank" class="text-primary">
+                    {{ .Title }}
+                  </a>
+                </h4>
+                <p class="authors">
+                  {{ range $index, $author := .Params.authors }}
+                    {{ if $index }}, {{ end }}<strong>{{ $author }}</strong>
+                  {{ end }}
+                </p>
+                <p class="journal text-success">
+                  <em>{{ .Params.journal }}</em>
+                </p>
+                <div class="links mb-2">
+                  {{ if .Params.links.preprint }}
+                  <a href="{{ .Params.links.preprint }}" target="_blank" class="btn btn-outline-primary btn-sm">Preprint</a>
+                  {{ end }}
+                  {{ if .Params.links.code }}
+                  <a href="{{ .Params.links.code }}" target="_blank" class="btn btn-outline-secondary btn-sm">Code</a>
+                  {{ end }}
+                  {{ if .Params.links.dataset }}
+                  <a href="{{ .Params.links.dataset }}" target="_blank" class="btn btn-outline-success btn-sm">Dataset</a>
+                  {{ end }}
+                </div>
+                <div class="badges">
+                  {{ range .Params.badges }}
+                  <a href="{{ .url }}" target="_blank">
+                    <img src="{{ .image | relURL }}" alt="Badge" class="badge-icon">
+                  </a>
+                  {{ end }}
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ partial "footer.html" . }}
+    </div>
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

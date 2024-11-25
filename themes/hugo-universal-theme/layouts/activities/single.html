@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        {{ partial "top.html" . }}
+
+        {{ partial "nav.html" . }}
+
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <!-- *** MAIN COLUMN *** -->
+                    <div class="col-md-12" id="activity-single">
+
+                        <!-- Title -->
+                        <h1>{{ .Title }}</h1>
+
+                        <!-- Date -->
+                        {{ if .Params.date }}
+                        <p class="text-muted">{{ .Date.Format .Site.Params.date_format }}</p>
+                        {{ end }}
+
+                        <!-- Image -->
+                        {{ if .Params.banner }}
+                        <div class="activity-banner">
+                            <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="{{ .Title }}" />
+                        </div>
+                        {{ end }}
+
+                        <!-- Content -->
+                        <div id="activity-content">
+                            {{ .Content }}
+                        </div>
+
+                    </div>
+                    <!-- /.col-md-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+
+</html>

@@ -1,4 +1,5 @@
 baseurl = "https://iiss-uk.github.io/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+relativeURLs = true
 title = "Universal"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
@@ -41,31 +42,31 @@ id = ""
 [[menu.main]]
     name       = "projects"
     identifier = "menu.projects"
-    url        = "/img/template-homepage.png"
+    url        = "/projects"
     weight     = 3
 
 [[menu.main]]
     name       = "publications"
     identifier = "menu.publications"
-    url        = ""
+    url        = "/publications"
     weight     = 4
 
 [[menu.main]]
     name       = "activities"
     identifier = "menu.activities"
-    url        = "/blog/"
+    url        = "/activities"
     weight     = 5
 
 [[menu.main]]
     name       = "awards"
     identifier = "menu.awards"
-    url        = "/faq/"
+    url        = "/awards"
     weight     = 6
 
 [[menu.main]]
     name       = "open positions"
     identifier = "open positions"
-    url        = "/contact/"
+    url        = "/open_positions/"
     weight     = 7
 
 
@@ -266,3 +267,5 @@ image = "img/team-photo-homepage.JPG"
   category = "categories"
   tag = "tags"
   author = "authors"
+
+

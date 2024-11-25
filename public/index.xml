@@ -6,21 +6,42 @@
     <description>Recent content on Universal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 21:58:12 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Faculty</title>
-      <link>http://localhost:1313/team/faculty/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/faculty/</guid>
-      <description>&lt;h3 id=&#34;zheng-wang&#34;&gt;Zheng Wang&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/zheng_wang.jpg&#34; alt=&#34;Zheng Wang&#34;&gt;&#xA;Mayank Goel is an Associate Professor in the Software and Societal Systems Department (S3D) and Human-Computer Interaction Institute (HCII). His research interests are in the areas of Human-Computer Interaction, Ubiquitous Computing, and Applications of Machine Learning.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;mailto:mayankgoel@cmu.edu&#34;&gt;mayankgoel@cmu.edu&lt;/a&gt;&lt;/p&gt;</description>
+      <title>Team</title>
+      <link>http://localhost:1313/team/</link>
+      <pubDate>Sun, 24 Nov 2024 21:58:12 +0000</pubDate>
+      <guid>http://localhost:1313/team/</guid>
+      <description>&lt;h2 id=&#34;faculty&#34;&gt;Faculty&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./img/zheng_wang.jpg&#34; alt=&#34;Zheng Wang&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;zheng-wang&#34;&gt;Zheng Wang&lt;/h4&gt;&#xA;&lt;p&gt;I am a member of the Distributed Systems and Services Group at Leeds, the EPSRC Peer Review College, the UKRI Talent Peer Review College (PRC), and the HiPEAC Network of Excellence. I was a Turing Fellow at The Alan Turing Institute. I was named among the Elsevier and Stanford World’s Top 2% Scientists in 2020, 2021, 2022 and 2023. I am a recipient of the Test-of-time Award in CGO 2024, Best Paper Award in ACM PACT 2010 and 2017, ACM CGO 2017 and 2019, Best Presentation Award at PACT 2010 and CGO 2013, 4 HiPEAC paper awards, and Best Paper Nomination/Finalist in ACM SC 2024, ACM SenSys 2019, and ACM CCS 2018. I am in the unofficial CGO Hall of Fame. I have an Erdős Number and a Dijkstra number of four.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Others</title>
-      <link>http://localhost:1313/team/others/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/others/</guid>
-      <description>&lt;h4 id=&#34;rishiraj-adhikary&#34;&gt;Rishiraj Adhikary&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/rishiraj_adhikary.jpg&#34; alt=&#34;Rishiraj Adhikary&#34;&gt;&#xA;Ph.D. Student&lt;br&gt;&#xA;IIT Gandhinagar&lt;br&gt;&#xA;&lt;a href=&#34;mailto:rishiraj.a@iitgn.ac.in&#34;&gt;rishiraj.a@iitgn.ac.in&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;riku-arakawa&#34;&gt;Riku Arakawa&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/riku_arakawa.jpg&#34; alt=&#34;Riku Arakawa&#34;&gt;&#xA;Ph.D. Student&lt;br&gt;&#xA;Human-Computer Interaction&lt;br&gt;&#xA;&lt;a href=&#34;mailto:rarakawa@andrew.cmu.edu&#34;&gt;rarakawa@andrew.cmu.edu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;shreya-bali&#34;&gt;Shreya Bali&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/shreya_bali.jpg&#34; alt=&#34;Shreya Bali&#34;&gt;&#xA;Ph.D. Student&lt;br&gt;&#xA;Human-Computer Interaction&lt;br&gt;&#xA;&lt;a href=&#34;mailto:sbali@andrew.cmu.edu&#34;&gt;sbali@andrew.cmu.edu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;vimal-mollyn&#34;&gt;Vimal Mollyn&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/vimal_mollyn.jpg&#34; alt=&#34;Vimal Mollyn&#34;&gt;&#xA;Ph.D. Student (advised by Chris Harrison)&lt;br&gt;&#xA;Human-Computer Interaction&lt;br&gt;&#xA;&lt;a href=&#34;mailto:vmollyn@andrew.cmu.edu&#34;&gt;vmollyn@andrew.cmu.edu&lt;/a&gt;&lt;/p&gt;</description>
+      <title>Data Science Bootcamp 2024</title>
+      <link>http://localhost:1313/activities/simulation-study/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/activities/simulation-study/</guid>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;&#xA;&lt;p&gt;The Data Science Bootcamp 2024 offers an intensive, hands-on program that equips participants with essential skills in data analysis, visualization, and machine learning. It&amp;rsquo;s perfect for professionals and students looking to advance their expertise in data science.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Workshop 2024</title>
+      <link>http://localhost:1313/activities/behavior/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/activities/behavior/</guid>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;&#xA;&lt;p&gt;The AI Workshop 2024 is designed to bring together researchers and practitioners in the field of artificial intelligence. This workshop will cover the latest trends and research in AI, including machine learning, natural language processing, and robotics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project One</title>
+      <link>http://localhost:1313/projects/project1/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project1/</guid>
+      <description>&lt;p&gt;This is a detailed description of Project One. This project explores innovative solutions to improve efficiency in machine learning models.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Key Features&lt;/strong&gt;:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Feature 1: Explanation of feature 1.&lt;/li&gt;&#xA;&lt;li&gt;Feature 2: Explanation of feature 2.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./img/project1-screenshot.jpg&#34; alt=&#34;Project Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Learn more about this project by contacting us.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project Two</title>
+      <link>http://localhost:1313/projects/project2/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project2/</guid>
+      <description>&lt;p&gt;This is a detailed description of Project Two. This project explores innovative solutions to improve efficiency in machine learning models.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Key Features&lt;/strong&gt;:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Feature 1: Explanation of feature 1.&lt;/li&gt;&#xA;&lt;li&gt;Feature 2: Explanation of feature 2.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./img/project1-screenshot.jpg&#34; alt=&#34;Project Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Learn more about this project by contacting us.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Categories Post</title>
@@ -48,7 +69,7 @@
       <link>http://localhost:1313/blog/2015/08/03/hugo-is-for-lovers/</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       <guid>http://localhost:1313/blog/2015/08/03/hugo-is-for-lovers/</guid>
-      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;http://localhost:1313/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
+      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;./overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
     </item>
     <item>
       <title>Creating a new theme</title>
@@ -65,6 +86,13 @@
       <description>&lt;h1 id=&#34;we-are-here-to-help-you&#34;&gt;We are here to help you&lt;/h1&gt;&#xA;&lt;p&gt;Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.&lt;/p&gt;&#xA;&lt;p&gt;Please feel free to contact us, our customer service center is working for you 24/7.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Enhancing Deployment-time Predictive Model Robustness for Code Analysis and Optimization</title>
+      <link>http://localhost:1313/publications/cgo25/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/cgo25/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>FAQ</title>
       <link>http://localhost:1313/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -72,11 +100,25 @@
       <description>&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-what-to-do-if-i-have-still-not-received-the-order&#34;&gt;1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?&lt;/h2&gt;&#xA;&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Introducing Compiler Semantics into Large Language Models as Programming Language Translators: A Case Study of C to x86 Assembly</title>
+      <link>http://localhost:1313/publications/acl24/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/acl24/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Migrate from Jekyll</title>
       <link>http://localhost:1313/blog/1/01/01/migrate-from-jekyll/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/1/01/01/migrate-from-jekyll/</guid>
       <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.&#xA;With Jekyll, something that looked like&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xD;&#xA;    ▾ images/&#xD;&#xA;        logo.png&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;should become&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xD;&#xA;    ▾ static/&#xD;&#xA;        ▾ images/&#xD;&#xA;            logo.png&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Optimizing Deep Learning Inference via Global Analysis and Tensor Expressions</title>
+      <link>http://localhost:1313/publications/asplos24/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/asplos24/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+</head>
+
+<body>
+
+    <div id="all">
+
+        {{ partial "top.html" . }}
+
+        {{ partial "nav.html" . }}
+
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <!-- *** MAIN COLUMN *** -->
+                    <div class="col-md-12" id="activity-listing-medium">
+
+                        <h1>{{ .Title }}</h1>
+                        <p>{{ .Description }}</p>
+
+                        {{ $paginator := .Paginate (where .Data.Pages "Type" "activities") }}
+                        {{ range $paginator.Pages }}
+                        <section class="post">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="image">
+                                        <!-- If external link exists, clicking will navigate to it; otherwise, navigate to the detail page -->
+                                        <a href="{{ with .Params.link }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" target="_blank">
+                                            {{ if .Params.banner }}
+                                            <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="{{ .Title }}" />
+                                            {{ else }}
+                                            <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="{{ .Title }}" />
+                                            {{ end }}
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2><a href="{{ with .Params.link }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" target="_blank">{{ .Title }}</a></h2>
+                                    <div class="clearfix">
+                                        {{ if isset .Params "date" }}
+                                        {{ $createdAt := .Date.Format .Site.Params.date_format }}
+                                        {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
+                                            {{ $createdAt = replace $createdAt $month (i18n $month) }}
+                                        {{ end }}
+                                        <p class="date-comments">
+                                            <i class="far fa-calendar"></i> {{ $createdAt }}
+                                        </p>
+                                        {{ end }}
+                                    </div>
+                                    {{ if not .Site.Params.recent_posts.hide_summary }}
+                                    <p class="intro">{{ .Summary }}</p>
+                                    <p class="read-more"><a href="{{ with .Params.link }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" class="btn btn-template-main" target="_blank">{{ i18n "continueReading" }}</a></p>
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </section>
+                        {{ end }}
+
+                        <ul class="pager">
+                            {{ if .Paginator.HasPrev }}
+                            <li class="previous"><a href="{{ .Paginator.Prev.URL | relURL }}">&larr; {{ i18n "newer" }}</a></li>
+                            {{ else }}
+                            <li class="previous disabled"><a href="#">&larr; {{ i18n "newer" }}</a></li>
+                            {{ end }}
+
+                            {{ if .Paginator.HasNext }}
+                            <li class="next"><a href="{{ .Paginator.Next.URL | relURL }}">{{ i18n "older" }} &rarr;</a></li>
+                            {{ else }}
+                            <li class="next disabled"><a href="#">{{ i18n "older" }} &rarr;</a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                    <!-- /.col-md-12 -->
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+</body>
+
+</html>

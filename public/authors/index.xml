@@ -22,5 +22,82 @@
       <guid>http://localhost:1313/authors/jane-doe/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Chunwei Xia</title>
+      <link>http://localhost:1313/authors/chunwei-xia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/chunwei-xia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Huanting Wang</title>
+      <link>http://localhost:1313/authors/huanting-wang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/huanting-wang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Huimin Cui</title>
+      <link>http://localhost:1313/authors/huimin-cui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/huimin-cui/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jiacheng Zhao</title>
+      <link>http://localhost:1313/authors/jiacheng-zhao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/jiacheng-zhao/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Patrick Lenihan</title>
+      <link>http://localhost:1313/authors/patrick-lenihan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/patrick-lenihan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qianqi Sun</title>
+      <link>http://localhost:1313/authors/qianqi-sun/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/qianqi-sun/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shuoming Zhang</title>
+      <link>http://localhost:1313/authors/shuoming-zhang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/shuoming-zhang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xiaobing Feng</title>
+      <link>http://localhost:1313/authors/xiaobing-feng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/xiaobing-feng/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yuan Wen</title>
+      <link>http://localhost:1313/authors/yuan-wen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/yuan-wen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yunji Chen</title>
+      <link>http://localhost:1313/authors/yunji-chen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/yunji-chen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zheng Wang</title>
+      <link>http://localhost:1313/authors/zheng-wang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/zheng-wang/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

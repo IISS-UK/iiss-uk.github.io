@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Our Team on Universal</title>
-    <link>http://localhost:1313/team/</link>
-    <description>Recent content in Our Team on Universal</description>
+    <title>Team on Universal</title>
+    <link>https://iiss-uk.github.io/team/</link>
+    <description>Recent content in Team on Universal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/team/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Faculty</title>
-      <link>http://localhost:1313/team/faculty/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/faculty/</guid>
-      <description>&lt;h3 id=&#34;zheng-wang&#34;&gt;Zheng Wang&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/zheng_wang.jpg&#34; alt=&#34;Zheng Wang&#34;&gt;&#xA;Mayank Goel is an Associate Professor in the Software and Societal Systems Department (S3D) and Human-Computer Interaction Institute (HCII). His research interests are in the areas of Human-Computer Interaction, Ubiquitous Computing, and Applications of Machine Learning.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;mailto:mayankgoel@cmu.edu&#34;&gt;mayankgoel@cmu.edu&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Others</title>
-      <link>http://localhost:1313/team/others/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/others/</guid>
-      <description>&lt;h4 id=&#34;rishiraj-adhikary&#34;&gt;Rishiraj Adhikary&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/rishiraj_adhikary.jpg&#34; alt=&#34;Rishiraj Adhikary&#34;&gt;&#xA;Ph.D. Student&lt;br&gt;&#xA;IIT Gandhinagar&lt;br&gt;&#xA;&lt;a href=&#34;mailto:rishiraj.a@iitgn.ac.in&#34;&gt;rishiraj.a@iitgn.ac.in&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;riku-arakawa&#34;&gt;Riku Arakawa&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/riku_arakawa.jpg&#34; alt=&#34;Riku Arakawa&#34;&gt;&#xA;Ph.D. Student&lt;br&gt;&#xA;Human-Computer Interaction&lt;br&gt;&#xA;&lt;a href=&#34;mailto:rarakawa@andrew.cmu.edu&#34;&gt;rarakawa@andrew.cmu.edu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;shreya-bali&#34;&gt;Shreya Bali&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/shreya_bali.jpg&#34; alt=&#34;Shreya Bali&#34;&gt;&#xA;Ph.D. Student&lt;br&gt;&#xA;Human-Computer Interaction&lt;br&gt;&#xA;&lt;a href=&#34;mailto:sbali@andrew.cmu.edu&#34;&gt;sbali@andrew.cmu.edu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;vimal-mollyn&#34;&gt;Vimal Mollyn&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/vimal_mollyn.jpg&#34; alt=&#34;Vimal Mollyn&#34;&gt;&#xA;Ph.D. Student (advised by Chris Harrison)&lt;br&gt;&#xA;Human-Computer Interaction&lt;br&gt;&#xA;&lt;a href=&#34;mailto:vmollyn@andrew.cmu.edu&#34;&gt;vmollyn@andrew.cmu.edu&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://iiss-uk.github.io/team/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
