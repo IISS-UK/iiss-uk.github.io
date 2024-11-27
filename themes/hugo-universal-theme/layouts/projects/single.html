@@ -1,69 +1,33 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-
-  <head>
+<head>
     {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
-  </head>
-
-  <body>
-
+</head>
+<body>
     <div id="all">
-
         {{ partial "top.html" . }}
-
         {{ partial "nav.html" . }}
-
-        {{ partial "breadcrumbs.html" . }}
-
         <div id="content">
             <div class="container">
+                <!-- Custom Title -->
+                <h2>{{ .Title }}</h2>
                 <div class="row">
-                    <!-- *** MAIN COLUMN *** -->
-                    <div class="col-md-9" id="project-single">
-
-                        <!-- Title -->
-                        <h1>{{ .Title }}</h1>
-
-                        <!-- Date -->
-                        {{ if .Params.date }}
-                        <p class="text-muted">{{ .Date.Format .Site.Params.date_format }}</p>
-                        {{ end }}
-
-                        <!-- Image -->
-                        {{ if .Params.banner }}
-                        <div class="project-banner">
-                            <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="{{ .Title }}" />
+                    <div class="col-md-12">
+                        <!-- Project Details -->
+                        <div class="project-details">
+                            <p><strong>Company:</strong> {{ .Params.company }}</p>
+                            <p><strong>Role:</strong> {{ .Params.role }}</p>
+                            <p><strong>Duration:</strong> {{ .Params.duration }}</p>
                         </div>
-                        {{ end }}
-
-                        <!-- Content -->
-                        <div id="project-content">
+                        <hr>
+                        <div class="project-content">
                             {{ .Content }}
                         </div>
-
                     </div>
-                    <!-- /.col-md-9 -->
-
-                    <!-- *** SIDEBAR COLUMN *** -->
-                    <div class="col-md-3">
-                        {{ partial "sidebar.html" . }}
-                    </div>
-                    <!-- /.col-md-3 -->
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
         </div>
-        <!-- /#content -->
-
         {{ partial "footer.html" . }}
-
     </div>
-    <!-- /#all -->
-
-    {{ partial "scripts.html" . }}
-
-  </body>
-
+</body>
 </html>

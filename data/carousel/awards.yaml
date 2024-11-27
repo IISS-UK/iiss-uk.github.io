@@ -2,7 +2,7 @@ weight: 4
 title: "CGO 2024 Test-of-Time Award"
 description: >
   <ul class="list-style-none">
-    <li>Test of Time Award went "Portable mapping of data parallel programs to OpenCL for heterogeneous systems", from CGO 2013. Congratulations Dominik Grewe, Zheng Wang, Michael F. P. O'Boyle!</li>
+    <li>Test of Time Award went "Portable mapping of data parallel programs to OpenCL for heterogeneous systems", from CGO 2013.</li>
     
   </ul>
 image: "img/homepage-awards.jpg"

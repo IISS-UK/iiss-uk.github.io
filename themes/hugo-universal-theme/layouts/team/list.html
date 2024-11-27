@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+    <style>
+        /* Custom styles for the Faculty and Students sections */
+        .faculty-section {
+            margin-top: 50px;
+        }
+
+        .faculty-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .faculty-member img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+
+        .faculty-details h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Horizontal grid styles for other sections */
+        .grid-section {
+            margin-top: 50px;
+        }
+
+        .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; /* Spacing between items */
+    }
+
+    .grid-item {
+        flex: 0 0 calc(25% - 20px); /* Four items per row with space */
+        box-sizing: border-box;
+        max-width: calc(25% - 20px); /* Keeps width consistent */
+        text-align: left; /* Ensures content is aligned to the left */
+    }
+
+    .grid-item img {
+        width: 100%; /* Scales image to fit the container width */
+        max-width: 150px; /* Sets a consistent image size */
+        height: 150px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .grid-item h4 {
+        margin: 10px 0 5px;
+    }
+
+    .grid-item p {
+        margin: 5px 0;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="all">
+        {{ partial "top.html" . }}
+        {{ partial "nav.html" . }}
+
+        <div id="content">
+            <div class="container">
+                <h1>{{ .Title }}</h1>
+                <!-- Faculty Section -->
+                <section class="faculty-section">
+                    <h2>Faculty</h2>
+                    {{ range .Params.faculty }}
+                    <div class="faculty-member">
+                        <img src="{{ .image | relURL }}" alt="{{ .name }}">
+                        <div class="faculty-details">
+                            <h4>{{ .name }}</h4>
+                            <p>{{ .description }}</p>
+                            <p><a href="mailto:{{ .email }}">{{ .email }}</a></p>
+                        </div>
+                    </div>
+                    {{ end }}
+                </section>
+
+                <!-- Horizontal Grid Section -->
+                <section class="grid-section">
+                    <h2>Research Fellows</h2>
+                    <div class="grid-container">
+                        {{ range .Params.research_fellows }}
+                        <div class="grid-item">
+                            <img src="{{ .image | relURL }}" alt="{{ .name }}">
+                            <h4>{{ .name }}</h4>
+                            <p><a href="mailto:{{ .email }}">{{ .email }}</a></p>
+                        </div>
+                        {{ end }}
+                    </div>
+                </section>
+
+                <section class="grid-section">
+                    <h2>PhD Students</h2>
+                    <div class="grid-container">
+                        {{ range .Params.phd_students }}
+                        <div class="grid-item">
+                            <img src="{{ .image | relURL }}" alt="{{ .name }}">
+                            <h4>{{ .name }}</h4>
+                            <p><strong>{{ .position }}</strong></p>
+                            <p><a href="mailto:{{ .email }}">{{ .email }}</a></p>
+                        </div>
+                        {{ end }}
+                    </div>
+                </section>
+
+                <section class="grid-section">
+                    <h2>Research Staff</h2>
+                    <div class="grid-container">
+                        {{ range .Params.research_staff }}
+                        <div class="grid-item">
+                            <img src="{{ .image | relURL }}" alt="{{ .name }}">
+                            <h4>{{ .name }}</h4>
+                            <p>{{ .affiliation }}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                </section>
+
+                <section class="grid-section">
+                    <h2>Alumni</h2>
+                    <div class="grid-container">
+                        {{ range .Params.alumni }}
+                        <div class="grid-item">
+                            <h4>{{ .name }}</h4>
+                            {{ if .position }}
+                            <p><strong>{{ .position }}</strong></p>
+                            {{ end }}
+                            <p><a href="mailto:{{ .email }}">{{ .email }}</a></p>
+                        </div>
+                        {{ end }}
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        {{ partial "footer.html" . }}
+    </div>
+</body>
+
+</html>

@@ -2,7 +2,6 @@
 <html lang="{{ .Site.LanguageCode }}">
   <head>
     {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
   </head>
   <body>
     <div id="all">
@@ -29,7 +28,7 @@
                 <p class="journal text-success">
                   <em>{{ .Params.journal }}</em>
                 </p>
-                <div class="links mb-2">
+                <div class="links">
                   {{ if .Params.links.preprint }}
                   <a href="{{ .Params.links.preprint }}" target="_blank" class="btn btn-outline-primary btn-sm">Preprint</a>
                   {{ end }}
@@ -38,13 +37,6 @@
                   {{ end }}
                   {{ if .Params.links.dataset }}
                   <a href="{{ .Params.links.dataset }}" target="_blank" class="btn btn-outline-success btn-sm">Dataset</a>
-                  {{ end }}
-                </div>
-                <div class="badges">
-                  {{ range .Params.badges }}
-                  <a href="{{ .url }}" target="_blank">
-                    <img src="{{ .image | relURL }}" alt="Badge" class="badge-icon">
-                  </a>
                   {{ end }}
                 </div>
               </div>

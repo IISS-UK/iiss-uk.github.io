@@ -5,6 +5,14 @@
     <div class="home-carousel">
         <div class="dark-mask"></div>
         <div class="container">
+            <style>
+                /* 内联样式定义 */
+                .custom-image-size {
+                    width: 300px; /* 定义图片宽度 */
+                    height: 200px; /* 定义图片高度 */
+                    object-fit: cover; /* 保证图片不会变形 */
+                }
+            </style>
             <div class="homepage owl-carousel"
                 data-autoplay="{{ default true .Site.Params.CarouselHomepage.auto_play }}"
                 data-slide-speed="{{ default 2000 .Site.Params.CarouselHomepage.slide_speed }}"
@@ -16,11 +24,12 @@
                     {{ end }}
                         <div class="row">
                             <div class="col-sm-5 right">
-                                <h1>{{ .title | safeHTML }}</h1>
+                                <h2>{{ .title | safeHTML }}</h2>
                                 {{ .description | safeHTML }}
                             </div>
                             <div class="col-sm-7">
-                                <img class="img-responsive" src="{{ .image }}" alt="">
+                                <!-- 添加了 custom-image-size 类 -->
+                                <img class="img-responsive custom-image-size" src="{{ .image }}" alt="">
                             </div>
                         </div>
                     {{ if .href }}

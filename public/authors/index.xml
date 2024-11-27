@@ -6,20 +6,26 @@
     <description>Recent content in Authors on Universal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>John Doe</title>
-      <link>http://localhost:1313/authors/john-doe/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      <guid>http://localhost:1313/authors/john-doe/</guid>
+      <title> Zhang Z</title>
+      <link>http://localhost:1313/authors/-zhang-z/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/-zhang-z/</guid>
       <description></description>
     </item>
     <item>
-      <title>Jane Doe</title>
-      <link>http://localhost:1313/authors/jane-doe/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      <guid>http://localhost:1313/authors/jane-doe/</guid>
+      <title>Bi Z</title>
+      <link>http://localhost:1313/authors/bi-z/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/bi-z/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bo Yang</title>
+      <link>http://localhost:1313/authors/bo-yang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/bo-yang/</guid>
       <description></description>
     </item>
     <item>
@@ -27,6 +33,13 @@
       <link>http://localhost:1313/authors/chunwei-xia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/authors/chunwei-xia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guan B</title>
+      <link>http://localhost:1313/authors/guan-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/guan-b/</guid>
       <description></description>
     </item>
     <item>
@@ -51,6 +64,48 @@
       <description></description>
     </item>
     <item>
+      <title>Jianbin Fang</title>
+      <link>http://localhost:1313/authors/jianbin-fang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/jianbin-fang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jie Liu</title>
+      <link>http://localhost:1313/authors/jie-liu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/jie-liu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jin H</title>
+      <link>http://localhost:1313/authors/jin-h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/jin-h/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jintao Peng</title>
+      <link>http://localhost:1313/authors/jintao-peng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/jintao-peng/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lu F</title>
+      <link>http://localhost:1313/authors/lu-f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/lu-f/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Min Xie</title>
+      <link>http://localhost:1313/authors/min-xie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/min-xie/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Patrick Lenihan</title>
       <link>http://localhost:1313/authors/patrick-lenihan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -65,6 +120,20 @@
       <description></description>
     </item>
     <item>
+      <title>Shengguo Li</title>
+      <link>http://localhost:1313/authors/shengguo-li/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/shengguo-li/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shi X</title>
+      <link>http://localhost:1313/authors/shi-x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/shi-x/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Shuoming Zhang</title>
       <link>http://localhost:1313/authors/shuoming-zhang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -72,10 +141,38 @@
       <description></description>
     </item>
     <item>
+      <title>Sui Y</title>
+      <link>http://localhost:1313/authors/sui-y/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/sui-y/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wan Y</title>
+      <link>http://localhost:1313/authors/wan-y/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/wan-y/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wang Z</title>
+      <link>http://localhost:1313/authors/wang-z/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/wang-z/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Xiaobing Feng</title>
       <link>http://localhost:1313/authors/xiaobing-feng/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/authors/xiaobing-feng/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yi Dai</title>
+      <link>http://localhost:1313/authors/yi-dai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/yi-dai/</guid>
       <description></description>
     </item>
     <item>
@@ -90,6 +187,13 @@
       <link>http://localhost:1313/authors/yunji-chen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/authors/yunji-chen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zhang H</title>
+      <link>http://localhost:1313/authors/zhang-h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/zhang-h/</guid>
       <description></description>
     </item>
     <item>

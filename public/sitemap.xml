@@ -2,138 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/activities/</loc>
-    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/activities/behavior/</loc>
-    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/team/</loc>
     <lastmod>2024-11-24T21:58:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/1/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-11-24T21:58:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/golang/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/project1/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/project2/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/project3/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/project4/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/theme/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/activities/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/activities/simulation-study/</loc>
-    <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/activities/behavior/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/-zhang-z/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/2021/08/01/categories-post/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/john-doe/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/lorem/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/programming/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/pseudo/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/jane-doe/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/2015/10/02/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/go/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/2015/09/17/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/2015/08/03/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/2015/06/24/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/starting/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/awards/</loc>
   </url><url>
+    <loc>http://localhost:1313/authors/bi-z/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/bo-yang/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
     <loc>http://localhost:1313/authors/chunwei-xia/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/publications/cgo25_huanting-wang/</loc>
   </url><url>
-    <loc>http://localhost:1313/publications/cgo25/</loc>
-  </url><url>
-    <loc>http://localhost:1313/faq/</loc>
+    <loc>http://localhost:1313/authors/guan-b/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/huanting-wang/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/huimin-cui/</loc>
   </url><url>
-    <loc>http://localhost:1313/publications/acl24/</loc>
+    <loc>http://localhost:1313/publications/acl24_shuoming-zhang/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/ipsum/</loc>
+    <loc>http://localhost:1313/publications/acl24_bi-z/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/jiacheng-zhao/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/1/01/01/migrate-from-jekyll/</loc>
+    <loc>http://localhost:1313/authors/jianbin-fang/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/jie-liu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/jin-h/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/jintao-peng/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/lu-f/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/min-xie/</loc>
   </url><url>
     <loc>http://localhost:1313/open_positions/</loc>
   </url><url>
-    <loc>http://localhost:1313/publications/asplos24/</loc>
+    <loc>http://localhost:1313/publications/asplos24_chunwei-xia/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publications/sc23_jintao-peng/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/patrick-lenihan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/publications/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/qianqi-sun/</loc>
   </url><url>
+    <loc>http://localhost:1313/authors/shengguo-li/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/shi-x/</loc>
+  </url><url>
     <loc>http://localhost:1313/authors/shuoming-zhang/</loc>
   </url><url>
+    <loc>http://localhost:1313/authors/sui-y/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/wan-y/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/wang-z/</loc>
+  </url><url>
     <loc>http://localhost:1313/authors/xiaobing-feng/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/yi-dai/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/yuan-wen/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/yunji-chen/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/zhang-h/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/zheng-wang/</loc>
   </url>

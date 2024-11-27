@@ -1,115 +1,36 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-
 <head>
     {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
 </head>
-
 <body>
-
     <div id="all">
-
         {{ partial "top.html" . }}
-
         {{ partial "nav.html" . }}
-
         <div id="content">
             <div class="container">
+                <!-- Custom Title -->
+                <h1 class="custom-title">{{ .Title }}</h1>
                 <div class="row">
-                    <!-- *** MAIN COLUMN *** -->
-                    <div class="col-md-9" id="project-listing-medium">
-
-                        <h1>{{ .Title }}</h1>
-                        <p>{{ .Description }}</p>
-
-                        {{ $paginator := .Paginate (where .Data.Pages "Type" "projects") }}
-                        {{ range $paginator.Pages }}
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="image">
-                                        <!-- 如果存在外部链接，点击跳转到外部链接；否则跳转到详情页 -->
-                                        <a href="{{ with .Params.link }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" target="_blank">
-                                            {{ if .Params.banner }}
-                                            <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="{{ .Title }}" />
-                                            {{ else }}
-                                            <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="{{ .Title }}" />
-                                            {{ end }}
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="{{ with .Params.link }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" target="_blank">{{ .Title }}</a></h2>
-                                    <div class="clearfix">
-                                        {{ if isset .Params "date" }}
-                                        {{ $createdAt := .Date.Format .Site.Params.date_format }}
-                                        {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
-                                            {{ $createdAt = replace $createdAt $month (i18n $month) }}
-                                        {{ end }}
-                                        <p class="date-comments">
-                                            <a href="{{ .Permalink }}"><i class="far fa-calendar"></i> {{ $createdAt }}</a>
-                                        </p>
-                                        {{ end }}
-                                    </div>
-                                    {{ if not .Site.Params.recent_posts.hide_summary }}
-                                    <p class="intro">{{ .Summary }}</p>
-                                    <p class="read-more"><a href="{{ with .Params.link }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" class="btn btn-template-main" target="_blank">{{ i18n "continueReading" }}</a></p>
-                                    {{ end }}
-                                </div>
-                            </div>
-                        </section>
-                        {{ end }}
-
-                        <ul class="pager">
-                            {{ if .Paginator.HasPrev }}
-                            <li class="previous"><a href="{{ .Paginator.Prev.URL | relURL }}">&larr; {{ i18n "newer" }}</a></li>
-                            {{ else }}
-                            <li class="previous disabled"><a href="#">&larr; {{ i18n "newer" }}</a></li>
-                            {{ end }}
-
-                            {{ if .Paginator.HasNext }}
-                            <li class="next"><a href="{{ .Paginator.Next.URL | relURL }}">{{ i18n "older" }} &rarr;</a></li>
-                            {{ else }}
-                            <li class="next disabled"><a href="#">{{ i18n "older" }} &rarr;</a></li>
-                            {{ end }}
-                        </ul>
+                    {{ range .Pages }}
+                    <div class="col-md-12 mb-4">
+                        <div class="publication-item">
+                            <h4>
+                                <a href="{{ .Permalink }}" class="text-primary">
+                                    {{ .Title }}
+                                </a>
+                            </h4>
+                            <p class="text-muted">
+                                {{ .Params.company }}, {{ .Params.role }}, {{ .Params.duration }}
+                            </p>
+                        </div>
                     </div>
-                    <!-- /.col-md-9 -->
-
-                    <!-- *** LEFT COLUMN END *** -->
-
-                    <!-- *** RIGHT COLUMN ***
-
-       _________________________________________________________ -->
-
-                    <div class="col-md-3">
-
-                        <!-- *** MENUS AND WIDGETS *** -->
-
-                        {{ partial "sidebar.html" . }}
-
-                        <!-- *** MENUS AND FILTERS END *** -->
-
-                    </div>
-                    <!-- /.col-md-3 -->
-
-                    <!-- *** RIGHT COLUMN END *** -->
-
+                    {{ end }}
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
         </div>
-        <!-- /#content -->
-
         {{ partial "footer.html" . }}
-
     </div>
-    <!-- /#all -->
-
-    {{ partial "scripts.html" . }}
 
 </body>
-
 </html>

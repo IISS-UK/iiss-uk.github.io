@@ -160,7 +160,7 @@ id = ""
 
     about_us = """<p>
         <br>Location: 3.25b Sir William Henry Bragg Building
-        <br>Email: Z.Wang5@leeds.ac.uk
+        <br>Email: Z.Wang5(at)leeds.ac.uk
         <br>Phone: +44(0)113 343 1077
       </p>
       """
@@ -183,7 +183,7 @@ id = ""
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = true
+    enable = false
     text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
       <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
