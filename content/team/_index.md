@@ -2,6 +2,7 @@
 title: "Team"
 date: "2024-11-24T21:58:12Z"
 draft: false
+layout: team
 
 params:
   faculty:
