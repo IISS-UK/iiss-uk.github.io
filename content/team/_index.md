@@ -1,151 +1,107 @@
-+++
-title = "Team"
-date = "2024-11-24T21:58:12Z"
-draft = false
+---
+title: "Team"
+date: "2024-11-24T21:58:12Z"
+draft: false
 
-[params]
+params:
+  faculty:
+    - name: "Zheng Wang"
+      image: "/img/team/zheng_wang.jpg"
+      description: "I am a member of the Distributed Systems and Services Group at Leeds, the EPSRC Peer Review College, the UKRI Talent Peer Review College (PRC), and the HiPEAC Network of Excellence. I was a Turing Fellow at The Alan Turing Institute. I was named among the Elsevier and Stanford World’s Top 2% Scientists in 2020, 2021, 2022 and 2023. I am a recipient of the Test-of-time Award in CGO 2024, Best Paper Award in ACM PACT 2010 and 2017, ACM CGO 2017 and 2019, Best Presentation Award at PACT 2010 and CGO 2013, 4 HiPEAC paper awards, and Best Paper Nomination/Finalist in ACM SC 2024, ACM SenSys 2019, and ACM CCS 2018. I am in the unofficial CGO Hall of Fame. I have an Erdős Number and a Dijkstra number of four."
+      email: "Z.Wang5@leeds.ac.uk"
 
-[[params.faculty]]
-name = "Zheng Wang"
-image = "/img/team/zheng_wang.jpg"
-description = "I am a member of the Distributed Systems and Services Group at Leeds, the EPSRC Peer Review College, the UKRI Talent Peer Review College (PRC), and the HiPEAC Network of Excellence. I was a Turing Fellow at The Alan Turing Institute. I was named among the Elsevier and Stanford World’s Top 2% Scientists in 2020, 2021, 2022 and 2023. I am a recipient of the Test-of-time Award in CGO 2024, Best Paper Award in ACM PACT 2010 and 2017, ACM CGO 2017 and 2019, Best Presentation Award at PACT 2010 and CGO 2013, 4 HiPEAC paper awards, and Best Paper Nomination/Finalist in ACM SC 2024, ACM SenSys 2019, and ACM CCS 2018. I am in the unofficial CGO Hall of Fame. I have an Erdős Number and a Dijkstra number of four."
-email = "Z.Wang5@leeds.ac.uk"
+  research_fellows:
+    - name: "Xiaoyang Sun"
+      image: "/img/xiaoyang_sun.jpg"
+      email: "X.Sun4@leeds.ac.uk"
+    - name: "Jingzhi Gong"
+      image: "/img/Jingzhi_Gong.jpg"
+      email: "xxxxx@leeds.ac.uk"
 
-[[params.research_fellows]]
-name = "Xiaoyang Sun"
-image = "/img/xiaoyang_sun.jpg"
-email = "X.Sun4@leeds.ac.uk"
+  phd_students:
+    - name: "Jiayu Zhao"
+      position: "4th-year PhD student"
+      image: "/img/team/jiayu_zhao.jpg"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Shenghao Qiu"
+      position: "4th-year PhD student"
+      image: "/img/team/shenghao_qiu.jpg"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Yin Wu"
+      position: "4th-year PhD student"
+      image: "/img/team/ying_wu.jpg"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Yachao Zhu"
+      position: "4th-year PhD student"
+      image: "/img/team/yachao_zhu.jpg"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Patrick Lenihan"
+      position: "3rd-year PhD student"
+      image: "/img/team/Patrick Lenihan.jpg"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Huanting Wang"
+      position: "3rd-year PhD student"
+      image: "/img/team/huanting_wang.jpg"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Beite Yang"
+      position: "3rd-year PhD student"
+      image: "/img/team/beite_yang.jpg"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Yiming Ma"
+      position: "1st-year PhD student"
+      image: "/img/team/yiming_ma.jpg"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Hua Wei Zhang"
+      position: "1st-year PhD student"
+      image: "/img/team/huawei_zhang.jpg"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Ce Yang"
+      position: "1st-year PhD student"
+      image: "/img/team/ce_yang.jpg"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Xiao Qin"
+      position: "Incoming PhD student"
+      image: "/img/team/qin_xiao.jpg"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Yucheol Choi"
+      position: "Incoming PhD student"
+      image: "/img/team/Yucheol Choi.jpg"
+      email: "xxxxx@leeds.ac.uk"
 
-[[params.research_fellows]]
-name = "Jingzhi Gong"
-image = "/img/Jingzhi_Gong.jpg"
-email = "xxxxx@leeds.ac.uk"
+  research_staff:
+    - name: "Jinyi Fan"
+      affiliation: "ACE3 AI LTD"
+      image: "/img/rishiraj.jpg"
 
-[[params.phd_students]]
-name = "Jiayu Zhao"
-position = "4th-year PhD student"
-image = "/img/team/jiayu_zhao.jpg"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.phd_students]]
-name = "Shenghao Qiu"
-position = "4th-year PhD student"
-image = "/img/team/shenghao_qiu.jpg"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.phd_students]]
-name = "Yin Wu"
-position = "4th-year PhD student"
-image = "/img/team/ying_wu.jpg"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.phd_students]]
-name = "Yachao Zhu"
-position = "4th-year PhD student"
-image = "/img/team/yachao_zhu.jpg"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.phd_students]]
-name = "Patrick Lenihan"
-position = "3rd-year PhD student"
-image = "/img/team/Patrick Lenihan.jpg"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.phd_students]]
-name = "Huanting Wang"
-position = "3rd-year PhD student"
-image = "/img/team/huanting_wang.jpg"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.phd_students]]
-name = "Beite Yang"
-position = "3rd-year PhD student"
-image = "/img/team/beite_yang.jpg"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.phd_students]]
-name = "Yiming Ma"
-position = "1st-year PhD student"
-image = "/img/team/yiming_ma.jpg"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.phd_students]]
-name = "Hua Wei Zhang"
-position = "1st-year PhD student"
-image = "/img/team/huawei_zhang.jpg"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.phd_students]]
-name = "Ce Yang"
-position = "1st-year PhD student"
-image = "/img/team/ce_yang.jpg"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.phd_students]]
-name = "Xiao Qin"
-position = "Incoming PhD student"
-image = "/img/team/qin_xiao.jpg"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.phd_students]]
-name = "Yucheol Choi"
-position = "Incoming PhD student"
-image = "/img/team/Yucheol Choi.jpg"
-email = "xxxxx@leeds.ac.uk"
-
-
-[[params.research_staff]]
-name = "Jinyi Fan"
-affiliation = "ACE3 AI LTD"
-image = "/img/rishiraj.jpg"
-
-[[params.alumni]]
-name = "Chunwei Xia"
-position = "Lecturer"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.alumni]]
-name = "Xiaoyang Sun"
-position = "Research Fellow"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.alumni]]
-name = "Yiming Wang"
-position = "Visiting PhD Student"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.alumni]]
-name = "Rodrigo Caetano Rocha"
-position = "Senior Researcher"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.alumni]]
-name = "Ben Taylor"
-position = "XXXXX"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.alumni]]
-name = "Vicent Sanz Marco"
-position = "Assistant Professor"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.alumni]]
-name = "Volker Seeker"
-position = "XXXXXXX"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.alumni]]
-name = "Guixin Ye"
-position = "Associate Professor"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.alumni]]
-name = "William Ogilvie"
-position = "XXXXXX"
-email = "xxxxx@leeds.ac.uk"
-
-[[params.alumni]]
-name = "Jie Ren"
-position = "Associate Professor"
-email = "xxxxx@leeds.ac.uk"
-+++
+  alumni:
+    - name: "Chunwei Xia"
+      position: "Lecturer"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Xiaoyang Sun"
+      position: "Research Fellow"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Yiming Wang"
+      position: "Visiting PhD Student"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Rodrigo Caetano Rocha"
+      position: "Senior Researcher"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Ben Taylor"
+      position: "XXXXX"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Vicent Sanz Marco"
+      position: "Assistant Professor"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Volker Seeker"
+      position: "XXXXXXX"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Guixin Ye"
+      position: "Associate Professor"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "William Ogilvie"
+      position: "XXXXXX"
+      email: "xxxxx@leeds.ac.uk"
+    - name: "Jie Ren"
+      position: "Associate Professor"
+      email: "xxxxx@leeds.ac.uk"
+---
