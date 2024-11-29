@@ -36,7 +36,7 @@
 
 
 
-<link href="./css/custom.css?1732899847" rel="stylesheet">
+<link href="./css/custom.css?1732900969" rel="stylesheet">
 
 
 
@@ -281,11 +281,18 @@
         <div class="dark-mask"></div>
         <div class="container">
             <style>
-                 
                 .custom-image-size {
-                    width: 300px;  
-                    height: 200px;  
-                    object-fit: cover;  
+                    width: 100%; 
+                    max-height: 250px; 
+                    object-fit: cover;
+                    margin: auto;
+                }
+                .row.align-items-center {
+                    display: flex; 
+                    align-items: center; 
+                }
+                .right {
+                    text-align: left; 
                 }
             </style>
             <div class="homepage owl-carousel"
@@ -297,13 +304,14 @@
                     
                     <a href="./projects" target="_blank" title="Accelerating DNNs on GPUs">
                     
-                        <div class="row">
-                            <div class="col-sm-5 right">
+                        <div class="row align-items-center">
+                            <div class="col-sm-6 right">
                                 <h2>Accelerating DNNs on GPUs</h2>
-                                <p>xxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxx</p>
+                                <div class="description">
+                                    <p>xxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxx</p>
+                                </div>
                             </div>
-                            <div class="col-sm-7">
-                                
+                            <div class="col-sm-6">
                                 <img class="img-responsive custom-image-size" src="img/carousel/template-homepage.png" alt="">
                             </div>
                         </div>
@@ -316,19 +324,14 @@
                     
                     <a href="./activities" target="_blank" title="Recent Activities">
                     
-                        <div class="row">
-                            <div class="col-sm-5 right">
+                        <div class="row align-items-center">
+                            <div class="col-sm-6 right">
                                 <h2>Recent Activities</h2>
-                                <ul class="list-style-none">
-   <li>xxxxxxxxxxxx</li>
-   <li>xxxxxxxxxxxx</li>
-   <li>xxxxxxxxxxxx</li>
-   <li>xxxxxxxxxxxx</li>
- </ul>
-
+                                <div class="description">
+                                    <ul class="list-style-none"> <li>xxxxxxxxxxxx</li> <li>xxxxxxxxxxxx</li> </ul>
+                                </div>
                             </div>
-                            <div class="col-sm-7">
-                                
+                            <div class="col-sm-6">
                                 <img class="img-responsive custom-image-size" src="img/carousel/template-mac.png" alt="">
                             </div>
                         </div>
@@ -341,16 +344,17 @@
                     
                     <a href="./publications" target="_blank" title="Recent Publications">
                     
-                        <div class="row">
-                            <div class="col-sm-5 right">
+                        <div class="row align-items-center">
+                            <div class="col-sm-6 right">
                                 <h2>Recent Publications</h2>
-                                <ul class="list-style-none">
+                                <div class="description">
+                                    <ul class="list-style-none">
   <li>Enhancing Deployment-time Predictive Model Robustness for Code Analysis and Optimization</li>
 </ul>
 
+                                </div>
                             </div>
-                            <div class="col-sm-7">
-                                
+                            <div class="col-sm-6">
                                 <img class="img-responsive custom-image-size" src="img/carousel/template-easy-customize.png" alt="">
                             </div>
                         </div>
@@ -363,17 +367,17 @@
                     
                     <a href="./awards" target="_blank" title="CGO 2024 Test-of-Time Award">
                     
-                        <div class="row">
-                            <div class="col-sm-5 right">
+                        <div class="row align-items-center">
+                            <div class="col-sm-6 right">
                                 <h2>CGO 2024 Test-of-Time Award</h2>
-                                <ul class="list-style-none">
+                                <div class="description">
+                                    <ul class="list-style-none">
   <li>Test of Time Award went "Portable mapping of data parallel programs to OpenCL for heterogeneous systems", from CGO 2013.</li>
-  
 </ul>
 
+                                </div>
                             </div>
-                            <div class="col-sm-7">
-                                
+                            <div class="col-sm-6">
                                 <img class="img-responsive custom-image-size" src="img/homepage-awards.jpg" alt="">
                             </div>
                         </div>
@@ -387,7 +391,6 @@
         </div>
     </div>
 </section>
-
 
 
 

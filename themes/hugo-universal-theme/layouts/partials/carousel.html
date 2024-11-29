@@ -6,11 +6,18 @@
         <div class="dark-mask"></div>
         <div class="container">
             <style>
-                /* 内联样式定义 */
                 .custom-image-size {
-                    width: 300px; /* 定义图片宽度 */
-                    height: 200px; /* 定义图片高度 */
-                    object-fit: cover; /* 保证图片不会变形 */
+                    width: 100%; 
+                    max-height: 250px; 
+                    object-fit: cover;
+                    margin: auto;
+                }
+                .row.align-items-center {
+                    display: flex; 
+                    align-items: center; 
+                }
+                .right {
+                    text-align: left; 
                 }
             </style>
             <div class="homepage owl-carousel"
@@ -22,13 +29,14 @@
                     {{ if .href }}
                     <a href="{{ .href }}" target="_blank" title="{{ .title | safeHTML }}">
                     {{ end }}
-                        <div class="row">
-                            <div class="col-sm-5 right">
+                        <div class="row align-items-center">
+                            <div class="col-sm-6 right">
                                 <h2>{{ .title | safeHTML }}</h2>
-                                {{ .description | safeHTML }}
+                                <div class="description">
+                                    {{ .description | safeHTML }}
+                                </div>
                             </div>
-                            <div class="col-sm-7">
-                                <!-- 添加了 custom-image-size 类 -->
+                            <div class="col-sm-6">
                                 <img class="img-responsive custom-image-size" src="{{ .image }}" alt="">
                             </div>
                         </div>

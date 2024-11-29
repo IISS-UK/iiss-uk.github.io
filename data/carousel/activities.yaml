@@ -1,9 +1,7 @@
 weight: 2
 title: "Recent Activities"
-description: >
+description: 
   <ul class="list-style-none">
-     <li>xxxxxxxxxxxx</li>
-     <li>xxxxxxxxxxxx</li>
      <li>xxxxxxxxxxxx</li>
      <li>xxxxxxxxxxxx</li>
    </ul>

@@ -797,6 +797,11 @@ fieldset[disabled] .btn-template-primary.active {
   height: 100%;
   position: relative;
 }
+.row.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
 .jumbotron {
   padding: 30px;
   margin-bottom: 0;
