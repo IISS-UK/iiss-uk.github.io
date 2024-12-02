@@ -164,7 +164,7 @@ id = ""
         <br>Phone: +44(0)113 343 1077
       </p>
       """
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "University of Leeds; All rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
