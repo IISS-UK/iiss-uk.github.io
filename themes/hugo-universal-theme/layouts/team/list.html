@@ -76,8 +76,9 @@
             }
     
             .grid-item {
-                flex: 0 0 100%; /* Make each item take full width */
-                max-width: 100%;
+                flex: 0 0 calc(50% - 10px); /* Two items per row with space */
+                max-width: calc(50% - 10px); /* Adjust the width to fit two per row */
+                text-align: center; /* Center-aligns content */
             }
     
             .grid-container {
@@ -85,6 +86,7 @@
             }
         }
     </style>
+     
 </head>
 
 <body>
