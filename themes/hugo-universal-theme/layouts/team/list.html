@@ -9,13 +9,13 @@
         .faculty-section {
             margin-top: 50px;
         }
-
+    
         .faculty-member {
             display: flex;
             align-items: center;
             margin-bottom: 30px;
         }
-
+    
         .faculty-member img {
             width: 150px;
             height: 150px;
@@ -23,45 +23,67 @@
             border-radius: 8px;
             margin-right: 20px;
         }
-
+    
         .faculty-details h3 {
             margin: 0 0 10px;
         }
-
+    
         /* Horizontal grid styles for other sections */
         .grid-section {
             margin-top: 50px;
         }
-
+    
         .grid-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px; /* Spacing between items */
-    }
-
-    .grid-item {
-        flex: 0 0 calc(25% - 20px); /* Four items per row with space */
-        box-sizing: border-box;
-        max-width: calc(25% - 20px); /* Keeps width consistent */
-        text-align: left; /* Ensures content is aligned to the left */
-    }
-
-    .grid-item img {
-        width: 100%; /* Scales image to fit the container width */
-        max-width: 150px; /* Sets a consistent image size */
-        height: 150px;
-        object-fit: cover;
-        border-radius: 8px;
-        margin-bottom: 10px;
-    }
-
-    .grid-item h4 {
-        margin: 10px 0 5px;
-    }
-
-    .grid-item p {
-        margin: 5px 0;
-    }
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Spacing between items */
+        }
+    
+        .grid-item {
+            flex: 0 0 calc(25% - 20px); /* Four items per row with space */
+            box-sizing: border-box;
+            max-width: calc(25% - 20px); /* Keeps width consistent */
+            text-align: left; /* Ensures content is aligned to the left */
+        }
+    
+        .grid-item img {
+            width: 100%; /* Scales image to fit the container width */
+            max-width: 150px; /* Sets a consistent image size */
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+    
+        .grid-item h4 {
+            margin: 10px 0 5px;
+        }
+    
+        .grid-item p {
+            margin: 5px 0;
+        }
+    
+        /* Responsive Design for Mobile Devices */
+        @media (max-width: 768px) {
+            .faculty-member {
+                flex-direction: column; /* Stack image and text vertically */
+                align-items: flex-start; /* Align text to the left */
+            }
+    
+            .faculty-member img {
+                margin-bottom: 10px; /* Add space between image and text */
+                margin-right: 0; /* Remove right margin */
+            }
+    
+            .grid-item {
+                flex: 0 0 100%; /* Make each item take full width */
+                max-width: 100%;
+            }
+    
+            .grid-container {
+                gap: 10px; /* Reduce spacing for mobile */
+            }
+        }
     </style>
 </head>
 
@@ -148,6 +170,7 @@
 
         {{ partial "footer.html" . }}
     </div>
+    {{ partial "scripts.html" . }}
 </body>
 
 </html>
