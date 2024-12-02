@@ -9,15 +9,17 @@ params:
     - name: "Zheng Wang"
       image: "/img/team/zheng_wang.jpg"
       description: "I am a member of the Distributed Systems and Services Group at Leeds, the EPSRC Peer Review College, the UKRI Talent Peer Review College (PRC), and the HiPEAC Network of Excellence. I was a Turing Fellow at The Alan Turing Institute. I was named among the Elsevier and Stanford World’s Top 2% Scientists in 2020, 2021, 2022 and 2023. I am a recipient of the Test-of-time Award in CGO 2024, Best Paper Award in ACM PACT 2010 and 2017, ACM CGO 2017 and 2019, Best Presentation Award at PACT 2010 and CGO 2013, 4 HiPEAC paper awards, and Best Paper Nomination/Finalist in ACM SC 2024, ACM SenSys 2019, and ACM CCS 2018. I am in the unofficial CGO Hall of Fame. I have an Erdős Number and a Dijkstra number of four."
-      email: "Z.Wang5@leeds.ac.uk"
 
   research_fellows:
+    - name: "Chunwei Xia"
+      position: "Lecturer"
+      email: "C.Xia@leeds.ac.uk"
     - name: "Xiaoyang Sun"
       image: "/img/xiaoyang_sun.jpg"
       email: "X.Sun4@leeds.ac.uk"
     - name: "Jingzhi Gong"
       image: "/img/Jingzhi_Gong.jpg"
-      email: "xxxxx@leeds.ac.uk"
+      email: "J.Gong@leeds.ac.uk"
 
   phd_students:
     - name: "Jiayu Zhao"
@@ -28,7 +30,7 @@ params:
       position: "4th-year PhD student"
       image: "/img/team/shenghao_qiu.jpg"
       email: "xxxxx@leeds.ac.uk"
-    - name: "Yin Wu"
+    - name: "Ying Wu"
       position: "4th-year PhD student"
       image: "/img/team/ying_wu.jpg"
       email: "xxxxx@leeds.ac.uk"
@@ -52,7 +54,7 @@ params:
       position: "1st-year PhD student"
       image: "/img/team/yiming_ma.jpg"
       email: "xxxxx@leeds.ac.uk"
-    - name: "Hua Wei Zhang"
+    - name: "Huawei Zhang"
       position: "1st-year PhD student"
       image: "/img/team/huawei_zhang.jpg"
       email: "xxxxx@leeds.ac.uk"
@@ -69,21 +71,16 @@ params:
       image: "/img/team/Yucheol Choi.jpg"
       email: "xxxxx@leeds.ac.uk"
 
-  research_staff:
-    - name: "Jinyi Fan"
-      affiliation: "ACE3 AI LTD"
-      image: "/img/rishiraj.jpg"
-
   alumni:
     - name: "Chunwei Xia"
       position: "Lecturer"
-      email: "xxxxx@leeds.ac.uk"
+      email: "C.Xia@leeds.ac.uk"
     - name: "Xiaoyang Sun"
       position: "Research Fellow"
-      email: "xxxxx@leeds.ac.uk"
+      email: "X.Sun4@leeds.ac.uk"
     - name: "Yiming Wang"
       position: "Visiting PhD Student"
-      email: "xxxxx@leeds.ac.uk"
+      email: "scywan@leeds.ac.uk"
     - name: "Rodrigo Caetano Rocha"
       position: "Senior Researcher"
       email: "xxxxx@leeds.ac.uk"
