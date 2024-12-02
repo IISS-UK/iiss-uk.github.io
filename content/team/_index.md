@@ -12,13 +12,14 @@ params:
 
   research_fellows:
     - name: "Chunwei Xia"
+      image: "/img/team/chunwei_xia.jpg"
       position: "Lecturer"
       email: "C.Xia@leeds.ac.uk"
     - name: "Xiaoyang Sun"
-      image: "/img/xiaoyang_sun.jpg"
+      image: "/img/team/xiaoyang_sun.jpg"
       email: "X.Sun4@leeds.ac.uk"
     - name: "Jingzhi Gong"
-      image: "/img/Jingzhi_Gong.jpg"
+      image: "/img/team/jingzhi_gong.jpg"
       email: "J.Gong@leeds.ac.uk"
 
   phd_students:
@@ -40,7 +41,7 @@ params:
       email: "xxxxx@leeds.ac.uk"
     - name: "Patrick Lenihan"
       position: "3rd-year PhD student"
-      image: "/img/team/Patrick Lenihan.jpg"
+      image: "/img/team/patrick_lenihan.jpg"
       email: "xxxxx@leeds.ac.uk"
     - name: "Huanting Wang"
       position: "3rd-year PhD student"
@@ -68,7 +69,7 @@ params:
       email: "xxxxx@leeds.ac.uk"
     - name: "Yucheol Choi"
       position: "Incoming PhD student"
-      image: "/img/team/Yucheol Choi.jpg"
+      image: "/img/team/yucheol_choi.jpg"
       email: "xxxxx@leeds.ac.uk"
 
   alumni:
